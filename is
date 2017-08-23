@@ -1,4 +1,0 @@
-#!/bin/sh
-host=$1
-shift
-ipmitool -I lanplus -U root -P woo3euWu3 -H bmc.$host.belugacdn.com -E "$@"
