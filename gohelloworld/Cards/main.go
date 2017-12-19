@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
-
 func main() {
-	// var card string = "Ace of Spades"
-	card := "Ace of Spades"
-	fmt.Println(card)
+	card := []string{newCard(), newCard()}
+}
+
+func newCard() string {
+	return "Five of Diamonds"
 }
