@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("vim-go")
+	//Invoke the sayHelloAndReturnNothingness function without any parameters
+	sayHelloAndReturnNothingness()
+
+}
+
+func sayHelloAndReturnNothingness() {
+	fmt.Println("I'm a function in GO!")
 }
