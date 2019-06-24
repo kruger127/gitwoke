@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # light up the usage light of all drives by reading from all drives
+# just a test for VS
 
 terminate(){
  for pid in $pids;do
